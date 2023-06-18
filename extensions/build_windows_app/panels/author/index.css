@@ -1,0 +1,116 @@
+/*所有元素的属性*/
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/*滚动视图*/
+.ScrollView {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/*背景*/
+.SVcontent {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(107, 107, 107);
+    overflow: auto;
+}
+
+/* 修改滚动条样式 */
+.SVcontent::-webkit-scrollbar {
+    height: 0%;
+    width: 20px;
+    background-color: #000000;
+}
+
+/* 修改滚动条中的小滑块 */
+.SVcontent::-webkit-scrollbar-thumb {
+    width: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 136, 0);
+}
+
+/*定义滚动条的轨道*/
+.SVcontent::-webkit-scrollbar-track {
+    background-color: rgb(90, 250, 255);
+}
+
+/* 定义轨道两端的按钮 */
+.SVcontent::-webkit-scrollbar-button {
+    background-color: rgb(111, 255, 0);
+}
+
+/*给小滑块添加hover事件，鼠标悬浮在滑块上面的样式*/
+.SVcontent::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+
+
+.hr { 
+    height:3px;
+    border:none;
+    border-top:3px double #6B8E23;
+}
+
+.content-text0 {
+    margin:5px;
+    margin-left: 15px;
+}
+
+.content-text1 {
+    margin:5px;
+    margin-left: 15px;
+}
+
+.content-text2 {
+    margin:5px;
+    margin-left: 15px;
+}
+
+.content-text3 {
+    margin:5px;
+    margin-left: 15px;
+}
+
+.content-text4 {
+    margin:5px;
+    margin-left: 15px;
+}
+
+.title0 {
+    margin: 5px;
+    text-align:center;
+    font-size: 20px
+}
+
+.title1 {
+    margin: 5px;
+    text-align:center;
+    font-size: 20px
+}
+
+.title2 {
+    margin: 5px;
+    text-align:center;
+    font-size: 20px
+}
+
+.title3 {
+    margin: 5px;
+    text-align:center;
+    font-size: 20px
+}
+
+.title4 {
+    margin: 5px;
+    text-align:center;
+    font-size: 20px
+}

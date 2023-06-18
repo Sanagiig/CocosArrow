@@ -1,0 +1,14 @@
+{
+  "b": {
+    "name": "ArrowSelf",
+    "v": "v25.0.0",
+    "shuchuLJ": "D:\\Workspace\\GameDev\\Cocos\\StudyProjects\\self\\Arrow_Self\\build\\Electron",
+    "asar": false,
+    "isNode": true,
+    "isCover": true,
+    "appVersion": "1.0.0",
+    "icon": "D:\\Workspace\\GameDev\\Cocos\\StudyProjects\\self\\Arrow_Self\\extensions\\build_windows_app\\icon\\logo.png",
+    "jg": "2"
+  },
+  "port": "7456"
+}

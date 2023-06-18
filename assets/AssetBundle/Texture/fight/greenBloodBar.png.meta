@@ -1,0 +1,74 @@
+{
+  "ver": "1.0.21",
+  "importer": "image",
+  "imported": true,
+  "uuid": "e365c2bd-09bd-40b9-8833-082bdb7c44f1",
+  "files": [
+    ".png",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "e365c2bd-09bd-40b9-8833-082bdb7c44f1@6c48a",
+      "displayName": "fightBlood01",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e365c2bd-09bd-40b9-8833-082bdb7c44f1"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "e365c2bd-09bd-40b9-8833-082bdb7c44f1@f9941",
+      "displayName": "fightBlood01",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "custom",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 102,
+        "height": 17,
+        "rawWidth": 102,
+        "rawHeight": 17,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 6,
+        "borderRight": 6,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e365c2bd-09bd-40b9-8833-082bdb7c44f1@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "hasAlpha": true,
+    "type": "sprite-frame",
+    "redirect": "e365c2bd-09bd-40b9-8833-082bdb7c44f1@f9941"
+  }
+}

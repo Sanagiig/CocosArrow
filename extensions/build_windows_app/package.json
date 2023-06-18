@@ -1,0 +1,181 @@
+{
+    "package_version": 2,
+    "version": "1.0.0",
+    "name": "build_windows_app",
+    "description": "i18n:build_windows_app.description",
+    "main": "./dist/main.js",
+    "devDependencies": {
+        "@types/node": "^16.0.1",
+        "typescript": "^4.3.4"
+    },
+    "author": "property",
+    "editor": ">=3.0.0",
+    "scripts": {
+        "build": "tsc -b",
+        "watch": "tsc -w"
+    },
+    "contributions": {
+        "menu": [
+            {
+                "path": "i18n:menu.extension/发布win插件",
+                "label": "发布",
+                "message": "openBuildPanel"
+            },
+            {
+                "path": "i18n:menu.extension/发布win插件",
+                "label": "预览",
+                "message": "preview"
+            },
+            {
+                "path": "i18n:menu.extension/发布win插件",
+                "label": "预览设置",
+                "message": "openPreviewSetPanel"
+            },
+            {
+                "path": "i18n:menu.extension/发布win插件",
+                "label": "示例项目",
+                "message": "demo"
+            },
+            {
+                "path": "i18n:menu.extension/发布win插件",
+                "label": "API",
+                "message": "api"
+            },
+            {
+                "path": "i18n:menu.extension/发布win插件",
+                "label": "关于作者 | 关于插件 | 使用教程 | 失败解决方法 | 打赏作者",
+                "message": "author"
+            }
+        ],
+        "messages": {
+            "openBuildPanel": {
+                "methods": [
+                    "openBuildPanel"
+                ]
+            },
+            "startBuild": {
+                "methods": [
+                    "startBuild"
+                ]
+            },
+            "setLog": {
+                "methods": [
+                    "setLog"
+                ]
+            },
+            "setBuildCmd": {
+                "methods": [
+                    "setBuildCmd"
+                ]
+            },
+            "preview": {
+                "methods": [
+                    "preview"
+                ]
+            },
+            "openPreviewSetPanel": {
+                "methods": [
+                    "openPreviewSetPanel"
+                ]
+            },
+            "setPreviewPort": {
+                "methods": [
+                    "setPreviewPort"
+                ]
+            },
+            "demo": {
+                "methods": [
+                    "demo"
+                ]
+            },
+            "api": {
+                "methods": [
+                    "api"
+                ]
+            },
+            "author": {
+                "methods": [
+                    "author"
+                ]
+            }
+        },
+        "shortcuts": [
+            {
+                "message": "openBuildPanel",
+                "win": "ctrl+i",
+                "mac": "cmd+i"
+            }
+        ],
+        "profile": {
+            "project": {
+                "b.name": {
+                    "default": "Game",
+                    "label": "项目名称"
+                },
+                "b.v": {
+                    "default": "",
+                    "label": "electron版本号"
+                },
+                "b.shuchuLJ": {
+                    "default": "",
+                    "label": "输出路径"
+                },
+                "b.asar": {
+                    "default": true,
+                    "label": "是否加密"
+                },
+                "b.isNode": {
+                    "default": true,
+                    "label": "项目名称"
+                },
+                "b.isCover": {
+                    "default": true,
+                    "label": "是否覆盖原有包"
+                },
+                "b.appVersion": {
+                    "default": "1.0.0",
+                    "label": "应用版本号"
+                },
+                "b.icon": {
+                    "default": "",
+                    "label": "应用图标路径"
+                },
+                "b.jg": {
+                    "default": "2",
+                    "label": "架构"
+                }
+            }
+        }
+    },
+    "panels": {
+        "build": {
+            "title": "发布Windows面板",
+            "main": "./panels/build/index.js",
+            "size": {
+                "min-width": 400,
+                "min-height": 300,
+                "width": 800,
+                "height": 800
+            }
+        },
+        "preview": {
+            "title": "预览设置",
+            "main": "./panels/preview/index.js",
+            "size": {
+                "width": 500,
+                "height": 300
+            }
+        },
+        "author": {
+            "title": "关于作者 | 关于插件 | 使用教程 | 失败解决方法 | 打赏作者",
+            "main": "./panels/author/index.js",
+            "size": {
+                "width": 600,
+                "height": 800
+            }
+        }
+    },
+    "dependencies": {
+        "node-cmd": "^5.0.0"
+    }
+}

@@ -1,0 +1,51 @@
+{
+  "__version__": "1.0.1",
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "player"
+      },
+      {
+        "index": 2,
+        "name": "colliderItem"
+      },
+      {
+        "index": 3,
+        "name": "monster"
+      },
+      {
+        "index": 4,
+        "name": "reward"
+      },
+      {
+        "index": 5,
+        "name": "monsterSkillCollider"
+      },
+      {
+        "index": 6,
+        "name": "obstacle"
+      },
+      {
+        "index": 7,
+        "name": "raycastMesh"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 91,
+      "1": 113,
+      "2": 72,
+      "3": 77,
+      "4": 67,
+      "5": 66,
+      "6": 63,
+      "7": 0
+    }
+  }
+}

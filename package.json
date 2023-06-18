@@ -1,0 +1,12 @@
+{
+  "name": "Arrow_Self",
+  "type": "3d",
+  "uuid": "2de97b01-df89-4232-be8c-54890b90083c",
+  "version": "3.3.0",
+  "creator": {
+    "version": "3.3.0"
+  },
+  "devDependencies": {
+    "protobufjs": "^7.2.3"
+  }
+}
